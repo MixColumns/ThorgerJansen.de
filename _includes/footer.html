@@ -2,6 +2,6 @@
   <p style="margin: 0rem 0; font-size: 0.77rem; opacity: 1.0; color: inherit; padding: 1rem 0;">
     Built: {{ site.build_time | default: "-" }}<br>
     Ref: {{ site.build_ref | default: "-" }}<br>
-    Commit: {% if site.build_commit %}{{ site.build_commit | truncate: 7, "" }}{% else %}-{% endif %}
+    Commit: {% if site.build_commit %}{<a href="https://github.com/MixColumns/ThorgerJansen.de.git" target="_blank">{ site.build_commit | truncate: 7, "" }</a>}{% else %}-{% endif %}
   </p>
 </footer>
