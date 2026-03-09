@@ -1,0 +1,14 @@
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+_site
+vendor
+# LaTeX build artifacts
+LaTeX/*.aux
+LaTeX/*.fdb_latexmk
+LaTeX/*.fls
+LaTeX/*.log
+LaTeX/*.out
+LaTeX/*.synctex.gz
+LaTeX/*.toc
+LaTeX/*.pdf

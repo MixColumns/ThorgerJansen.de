@@ -1,0 +1,7 @@
+<footer style="display: block !important; text-align: left; border-top: 1px solid; margin-top: 1rem; color: inherit; visibility: visible !important; border-color: currentColor; opacity: 1.0;">
+  <p style="margin: 0rem 0; font-size: 0.77rem; opacity: 1.0; color: inherit; padding: 1rem 0;">
+    Built: {{ site.build_time | default: "-" }}<br>
+    Ref: {{ site.build_ref | default: "-" }}<br>
+    Commit: {% if site.build_commit %}{{ site.build_commit | truncate: 7, "" }}{% else %}-{% endif %}
+  </p>
+</footer>

@@ -1,0 +1,33 @@
+title: 🦊Thorger Jansen.de
+#description: >-
+color-scheme: auto 
+  
+baseurl: ""
+url: "https://thorgerjansen.de" 
+remote_theme: BDHU/minimalist
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-toc
+
+toc:
+  min_level: 1
+  max_level: 3
+
+sidebar:
+  - name: Curriculum Vitae
+    icon: <i class="fa-regular fa-file-lines"></i>
+    link: /CV
+  - name: Linkedin
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/thorger-jansen/
+  - name: Researchgate
+    icon: <i class="fa-brands fa-researchgate"></i>
+    link: https://www.researchgate.net/profile/Thorger-Sebastian-Jansen
+  - name: E-Mail
+    icon: <i class="fa-solid fa-envelope"></i>
+    link: mailto:Website@ThorgerJansen.de 
+  - name: Socials
+    icon: 🦊
+    link: https://socials.nicole4fox.de/
