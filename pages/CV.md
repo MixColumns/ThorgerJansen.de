@@ -9,6 +9,10 @@ toc: true
 * TOC
 {:toc}
 
+## Downloads
+
+- One-page CV [[EN]]({% link uploads/One-Page-CV-EN.pdf %})
+
 ## Work Experience
 **[TSJ-Development](https://tsj-dev.de/)**  
 *Jun 2024 - **Present***  
@@ -41,8 +45,8 @@ System Administrator
 ## Education
 
 **[Ruhr University Bochum](https://www.ruhr-uni-bochum.de)**  
-*2018 - **Present***  
-Bachelor of Science (B.S.), IT-Security  
+*2018 - 2026*  
+Bachelor of Science (B.Sc.), IT Security / Information Engineering 
 
 **[Gymnasium Eickel](https://gym-eickel.de/)**  
 *2018*  
@@ -76,11 +80,11 @@ Conference Paper, 2023
 
 | CVE | Product / Advisory |
 | --- | --- |
-| CVE-2025-15563 | TBD |
-| CVE-2025-15562 | TBD |
-| CVE-2025-15561 | TBD |
-| CVE-2025-15560 | TBD | 
-| CVE-2025-15559 | TBD |
+| [CVE-2025-15563](https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-nestersoft-worktime-on-prem-cloud/) | NesterSoft WorkTime (on-prem/cloud) |
+| [CVE-2025-15562](https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-nestersoft-worktime-on-prem-cloud/) | NesterSoft WorkTime (on-prem/cloud) |
+| [CVE-2025-15561](https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-nestersoft-worktime-on-prem-cloud/) | NesterSoft WorkTime (on-prem/cloud) |
+| [CVE-2025-15560](https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-nestersoft-worktime-on-prem-cloud/) | NesterSoft WorkTime (on-prem/cloud) | 
+| [CVE-2025-15559](https://sec-consult.com/vulnerability-lab/advisory/multiple-critical-vulnerabilities-in-nestersoft-worktime-on-prem-cloud/) | NesterSoft WorkTime (on-prem/cloud) |
 | [CVE-2025-10641](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-efficientlab-workexaminer-professional/) | EfficientLab WorkExaminer Professional |
 | [CVE-2025-10640](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-efficientlab-workexaminer-professional/) | EfficientLab WorkExaminer Professional |
 | [CVE-2025-10639](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-efficientlab-workexaminer-professional/) | EfficientLab WorkExaminer Professional |
@@ -91,9 +95,9 @@ Conference Paper, 2023
 | [CVE-2025-10541](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-imonitorsoft-eam/) | iMonitorSoft EAM
 | [CVE-2025-10540](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-imonitorsoft-eam/) | iMonitorSoft EAM
 | CVE-2025-10539 | TBD |
-| [CVE-2024-25977](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/) | HAWKI (Vehicle Surveillance Platform) |
-| [CVE-2024-25976](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/) | HAWKI (Vehicle Surveillance Platform) |
-| [CVE-2024-25975](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/) | HAWKI (Vehicle Surveillance Platform) |
+| [CVE-2024-25977](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/) | HAWKI (Interaction Design Team at the University of Applied Sciences and Arts in Hildesheim/Germany) |
+| [CVE-2024-25976](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/) | HAWKI (Interaction Design Team at the University of Applied Sciences and Arts in Hildesheim/Germany) |
+| [CVE-2024-25975](https://sec-consult.com/vulnerability-lab/advisory/multiple-vulnerabilities-in-hawki/) | HAWKI (Interaction Design Team at the University of Applied Sciences and Arts in Hildesheim/Germany) |
 | [CVE-2022-30760](https://homepage.ruhr-uni-bochum.de/Christian.Krug-q97/CVE-2022-30760.html) | FlexNow Student Information System |
 
 ## Honors and Awards

@@ -8,7 +8,7 @@ permalink: "/"
 
 <img src="/uploads/pfp.jpg" alt="Profile Picture" style="float: left; border-radius: 50%; margin-right: 20px; width: 150px; height: 150px; object-fit: cover;" />
 
-Hi, I'm **Nicole (Thorger Jansen)**, known for working in IT security, studying at Ruhr‑University Bochum, digging into vulnerabilities, CVEs, research, and all kind of sideprojects.
+Hi, I'm **Nicole (Thorger Jansen)**, known for working in IT security, studying at Ruhr-University Bochum, digging into vulnerabilities, CVEs, research, and all kind of sideprojects.
 I’ve also presented at conferences and hackathons, contributed to open source, and generally try to stay curious about how stuff works.
 
 I used to go by Thorger Jansen and a lot of things still do.

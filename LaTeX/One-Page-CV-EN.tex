@@ -1,0 +1,179 @@
+%-------------------------
+% Resume in Latex
+% Author : Harshibar
+% Based off of: https://github.com/jakeryang/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[scale=0.90,lf]{FiraMono}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{%
+  \bfseries \vspace{2pt} \raggedright \large%
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+\newcommand{\resumeItem}[1]{%
+  \item\small{#1 \vspace{-1pt}}%
+}
+
+\newcommand{\resumeSubheading}[4]{%
+  \vspace{-1pt}\item
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\ % top row of resume entry
+    \textit{#3} & {\color{dark-grey} \small #4}\\ % second row of resume entry
+  \end{tabular*}\vspace{-4pt}%
+}
+
+\newcommand{\resumeSubSubheading}[2]{%
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}%
+}
+
+\newcommand{\resumeProjectHeading}[2]{%
+  \item
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    #1 & {\color{dark-grey}} \\
+  \end{tabular*}\vspace{-4pt}%
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}%
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}%
+\newcommand{\resumeItemListStart}{\begin{itemize}}%
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}%
+
+\color{text-grey}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Thorger Jansen} \\ \vspace{5pt}
+    \small \faPhone* \texttt{+49 1575 7214751} \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{CV@ThorgerJansen.de} \hspace{1pt} $|$ 
+%    \hspace{1pt} \faYoutube \hspace{2pt} \texttt{harshibar} \hspace{1pt} $|$
+    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{Bochum, Germany}
+    \\ \vspace{-3pt}
+\end{center}
+
+\section{RECENT WORK}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://sec-consult.com/}{SEC Consult Group}}{Oct. 2023 -- Present}
+      {Associate Security Consultant}{Bochum, DE}
+      \resumeItemListStart
+      \resumeItem{Security audits, continuous testing, and code reviews for government agencies, international organizations, and leading companies from various sectors of the private sector, as well as critical infrastructure.}
+       \resumeItem{Various research projects leading to multiple CVEs and responsible disclosure process with vendors.}
+       \resumeItem{ Direct customer communication, reporting, quality assurance, and improvement of delivery quality.}
+      \resumeItemListEnd
+      
+      \resumeSubheading
+      {\href{https://www.joinef.com/}{Entrepreneurs First}}{Jun 2025 -- Oct 2025}
+      {Resident / Founder}{San Francisco, US}
+      \resumeItemListStart
+      \resumeItem{Tried founding a company in the U.S. market that used ML to assist elders and elder care facilities while making predictions about well-being, including Alzheimer's detection up to 10 years in advance.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {\href{https://www.inf.bi.ruhr-uni-bochum.de/}{Chair of Computing in Engineering, Ruhr University Bochum}}{Sep 2020 -- Sep 2023}
+      {Student Assistant}{Bochum, DE}
+      \resumeItemListStart
+      \resumeItem{Various programming and research projects, including programming augmented reality applications for the HoloLens and ML algorithms on the Boston Dynamics Spot.}
+      \resumeItem{Supported teaching the Web Engineering course.}
+      \resumeItem{Publication of a paper at the Forum Bauinformatik 2023.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section {EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.ruhr-uni-bochum.de/}{Ruhr University Bochum}}{2018 -- 2026}
+     {Bachelor of Science (B. Sc.) IT Security / Information Engineering}{Bochum, DE}
+    \resumeSubheading
+      {\href{https://gym-eickel.de/}{Gymnasium Eickel}}{2010 -- 2018}
+     {Abitur (1.7)}{Herne, DE}
+  \resumeSubHeadingListEnd
+  
+\section{PUBLICATIONS}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://doi.org/10.13140/RG.2.2.31236.59520}{Improving LLMs front-running detection capabilities (2.0)}}{2025}
+     {Bachelor Thesis}{10.13140/RG.2.2.31236.59520}
+    \resumeSubheading
+      {\href{https://doi.org/10.13154/294-10121}{An overview of outdoor and indoor navigation in regard to the use of existing standards}}{2023}
+     {Conference Paper}{10.13154/294-10121}
+\resumeSubHeadingListEnd
+
+\section{MISC}
+\begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Certifications} {: Multiple certifications including OSWA, CBBH, AZ-900, and more.}\vspace{2pt} \\
+     \textbf{CVEs} {: 19 CVEs in regard to various software, including FlexNow, the electronic examination management system many German universities use.}\vspace{2pt} \\
+     \textbf{Honors and Awards}{: Multiple honors and awards including the Bundeswehr Hall of Fame and VDPBw-Coin, Rotary Youth Leadership Awards, and other Halls of Fame.}
+\vspace{2pt} \\
+     \textbf{Voluntary Work}{: Various voluntary work in regard to accessibility as well as politics, including Department Head of the Autonomous Department for People with Disabilities and All Impairments of the AStA Ruhr University Bochum.}
+\vspace{2pt} \\
+     \textbf{Entrepreneur}{: Experience with founding companies, including a start-up attempt in Silicon Valley.}
+    }}
+ \end{itemize}
+
+A full CV with more details is available at: \href{https://thorgerjansen.de}{https://thorgerjansen.de}.
+
+\end{document}
