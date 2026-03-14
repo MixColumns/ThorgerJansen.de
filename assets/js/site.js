@@ -52,6 +52,11 @@ const pride_flag_css =
     }
     #prideflag * {
         pointer-events: all;
+    }
+    @media (max-width: 768px) {
+        #prideflag {
+            display: none;
+        }
     }`;
 
 function create_pride_flag() {
